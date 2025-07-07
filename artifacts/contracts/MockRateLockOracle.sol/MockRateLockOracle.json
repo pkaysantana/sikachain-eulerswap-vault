@@ -1,0 +1,59 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockRateLockOracle",
+  "sourceName": "contracts/MockRateLockOracle.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_initialRate",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "fromToken",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "toToken",
+          "type": "address"
+        }
+      ],
+      "name": "getRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_newRate",
+          "type": "uint256"
+        }
+      ],
+      "name": "setRate",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161016438038061016483398101604081905261002f91610037565b600055610050565b60006020828403121561004957600080fd5b5051919050565b6101058061005f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806334fcf437146037578063379b87ea146049575b600080fd5b60476042366004606e565b600055565b005b605c605436600460a1565b505060005490565b60405190815260200160405180910390f35b600060208284031215607f57600080fd5b5035919050565b80356001600160a01b0381168114609c57600080fd5b919050565b6000806040838503121560b357600080fd5b60ba836086565b915060c6602084016086565b9050925092905056fea26469706673582212204786fbf6d9479f11c0a7bbf0f42543888419de083469235e83eeff8d2a45253364736f6c63430008140033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806334fcf437146037578063379b87ea146049575b600080fd5b60476042366004606e565b600055565b005b605c605436600460a1565b505060005490565b60405190815260200160405180910390f35b600060208284031215607f57600080fd5b5035919050565b80356001600160a01b0381168114609c57600080fd5b919050565b6000806040838503121560b357600080fd5b60ba836086565b915060c6602084016086565b9050925092905056fea26469706673582212204786fbf6d9479f11c0a7bbf0f42543888419de083469235e83eeff8d2a45253364736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
